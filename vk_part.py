@@ -119,9 +119,9 @@ for event in longpoll.listen():
             gender_from_vk=vk.users.get(user_id=user_id, fields='sex')[0]['sex']
             bdate_from_vk=vk.users.get(user_id=user_id, fields='bdate')[0]['bdate']
             subscription_status = None
-            # m = "a402b15@voenmeh.ru"
+            # m = "*******@**********"
             m = None
-            m_p = "bbFHHkaA"
+            m_p = "************"
             # 1 - female, 2 - male
             # Printing data in console (debug feature)
             print(event.message, name_from_vk, lastname_from_vk, gender_from_vk, bdate_from_vk,   
